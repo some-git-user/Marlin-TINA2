@@ -6,7 +6,7 @@
     <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
     <a href="https://github.com/MarlinFirmware/Marlin/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marlinfirmware/marlin.svg"></a>
     <a href="https://github.com/MarlinFirmware/Marlin/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/MarlinFirmware/Marlin"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/actions"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/test-builds.yml/badge.svg"></a>
+    <a href="https://github.com/MarlinFirmware/Marlin/actions/workflows/ci-build-tests.yml"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/ci-build-tests.yml/badge.svg"></a>
     <a href="https://github.com/sponsors/thinkyhead"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/thinkyhead?color=db61a2"></a>
     <br />
     <a href="https://fosstodon.org/@marlinfirmware"><img alt="Follow MarlinFirmware on Mastodon" src="https://img.shields.io/mastodon/follow/109450200866020466?domain=https%3A%2F%2Ffosstodon.org&logoColor=%2300B&style=social"></a>
@@ -70,13 +70,14 @@ Every new HAL opens up a world of hardware. At this time we need HALs for RP2040
   [Teensy 4.0](https://www.pjrc.com/store/teensy40.html)|ARM® Cortex-M7|
   [Teensy 4.1](https://www.pjrc.com/store/teensy41.html)|ARM® Cortex-M7|
   Linux Native|x86/ARM/etc.|Raspberry Pi
+  [All supported boards](https://marlinfw.org/docs/hardware/boards.html#boards-list)|All platforms|All boards
 
 ## Marlin Support
 
 The Issue Queue is reserved for Bug Reports and Feature Requests. Please use the following resources for help with configuration and troubleshooting:
 
 - [Marlin Documentation](https://marlinfw.org) - Official Marlin documentation
-- [Marlin Discord](https://discord.gg/n5NJ59y) - Discuss issues with Marlin users and developers
+- [Marlin Discord](https://discord.com/servers/marlin-firmware-461605380783472640) - Discuss issues with Marlin users and developers
 - Facebook Group ["Marlin Firmware"](https://www.facebook.com/groups/1049718498464482/)
 - RepRap.org [Marlin Forum](https://forums.reprap.org/list.php?415)
 - Facebook Group ["Marlin Firmware for 3D Printers"](https://www.facebook.com/groups/3Dtechtalk/)
