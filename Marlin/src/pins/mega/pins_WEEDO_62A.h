@@ -36,7 +36,7 @@
 //
 // Limit Switches
 //
-#define X_MIN_PIN                              3
+#define X_MIN_PIN                             -1
 #define X_MAX_PIN                              2
 #define Y_MIN_PIN                             40
 #define Y_MAX_PIN                             41
@@ -74,6 +74,7 @@
 #define HEATER_0_PIN                          10  // EXTRUDER 1
 #define HEATER_BED_PIN                         8  // BED
 #define FAN0_PIN                               4  // IO pin. Buffer needed
+#define FAN1_PIN                               3  // remapping X_MIN_PIN to FAN1_PIN. Start FAN1 with M106 P1 S255. Stop with M106 P1 S0.
 
 //
 // Misc. Functions
